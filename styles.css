@@ -1,0 +1,55 @@
+body{
+  text-align: center;
+  background-color: #00008B;
+  position: relative;
+}
+
+.level{
+  color: white;
+  font-size: 5rem;
+}
+
+.dokme{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 15px;
+  border-radius: 25px;
+  border: 10px solid black;
+}
+
+@media (max-width: 570px) {
+  .dokme{
+    width: 150px;
+    height: 150px;
+  }
+
+  .level{
+    font-size: 2rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+}
+
+
+.green{
+  background-color: green;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.touched{
+  opacity: 0.5;
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  background-color: white;
+}
